@@ -13,7 +13,7 @@ VCSample *vc = [SLIDE_NAVIGATION.viewControllers objectAtIndex:SLIDE_NAVIGATION.
 VCSample *vc = [self.navigationController.viewControllers objectAtIndex:(self.navigationController.viewControllers.count -2)];
 ```
 
-**하고나서, VCSample에 Public으로 저장되어있는 변수에 값을 저장하면 된다.**
+**하고나서, VCSample에 Public으로 저장되어있는 변수에 값을 저장하면 됩니다.**
 
 ```
 vc.변수 = 저장할 값;
@@ -29,4 +29,4 @@ vc.변수 = 저장할 값;
 VCSample *vc = self.viewCountroller;
 ```
 
-**하고나서, 위와 같이 값을 가져와서 쓰면 된다.**
+**하고나서, 위와 같이 값을 가져와서 쓰면 됩니다.**
