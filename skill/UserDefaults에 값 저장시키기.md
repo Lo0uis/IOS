@@ -1,10 +1,11 @@
 ## userDefaults에 값 저장시키기
 
 userDefaults는 앱에서 일종의 저장소와 같은 역할을 합니다.
+
 앱 내에서 특정 값을 계속 필요로 할 때, 또는 여러 view Controller에서 한 값을 계속 필요로 할 때 이용하면 좋습니다.
 
 userDefaults는 mutableDictionary와 비슷한 형태로 되어있으며,
-```key```와 ```value```로 값을 저장하고, key값으로 저장되어있는 데이터를 불러옵니다.
+```key```와 ```value```로 값을 저장하고, ```key```값으로 저장되어있는 데이터를 불러옵니다.
 
 이때, 저장하려는 data의 type에 따라 저장하는 방식이 조금 차이가 있습니다.
 ```NSString```과 같이 가벼운 값들은 mutableDictionary와 같이 하면 되지만,
