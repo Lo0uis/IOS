@@ -3,13 +3,6 @@
 **<바로 이전의 VC에 값을 보내고 싶을때>**
 
 ```
-VCSample *vc = [SLIDE_NAVIGATION.viewControllers lastObject];
-or
-VCSample *vc = [SLIDE_NAVIGATION.viewControllers objectAtIndex:SLIDE_NAVIGATION.viewControllers.count -2];
-```
-**<만약 slideNavigation이 없는 프로젝트에서는>**
-
-```
 VCSample *vc = [self.navigationController.viewControllers objectAtIndex:(self.navigationController.viewControllers.count -2)];
 ```
 
