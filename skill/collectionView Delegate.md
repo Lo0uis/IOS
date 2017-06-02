@@ -39,7 +39,7 @@ collectionView는 최소 4가지의 delegate를 선언해야 합니다.
 }
 ```
 
-### <cell Bind delegate>
+### < cell Bind delegate >
 ```
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     
