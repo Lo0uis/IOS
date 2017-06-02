@@ -45,7 +45,6 @@ collectionView는 최소 4가지의 delegate를 선언해야 합니다.
     
     CellData *cellData = [collectionView.data objectAtIndex:indexPath.row] ;
     
-    //이미지 베너
     if (EQUALS(cellData.identifier, @"cellSample")) {
         
         cellSample *cell = [collectionView
