@@ -8,7 +8,7 @@ collectionView에서 광고노출과 같이 자동으로 다음 광고를 rollin
 가장 먼저, ```interface```에 몇가지 변수들을 선언합니다.
 
 ```
-@interface VCFavorites ()
+@interface VCSample ()
 ...
 @property (strong, nonatomic) IBOutlet UICollectionView *collectionView;
 
@@ -95,7 +95,7 @@ collectionView에서 광고노출과 같이 자동으로 다음 광고를 rollin
 }
 ```
 
-### <cell scroll delegate>
+### <cell 스크롤 delegate>
 ```
 - (void)collectionViewScrollToIndex:(NSInteger) index animated:(BOOL) animated {
     
